@@ -3,9 +3,9 @@ var ArcticTrail = ArcticTrail || {};
 //constants
 ArcticTrail.WEIGHT_PER_OX = 20;
 ArcticTrail.WEIGHT_PER_PERSON = 2;
-ArcticTrail.FOOD_WEIGHT = 0.6; // 0.6
-ArcticTrail.HUNTINGTOOLS_WEIGHT = 5; //5
-ArcticTrail.GAME_SPEED = 10;
+ArcticTrail.FOOD_WEIGHT = 0.6;
+ArcticTrail.HUNTINGTOOLS_WEIGHT = 5;
+ArcticTrail.GAME_SPEED = 600;
 ArcticTrail.YEAR_PER_STEP = 1/60;
 ArcticTrail.MONTH_PER_STEP = 0.2;
 ArcticTrail.FOOD_PER_PERSON = 0.02;
@@ -17,7 +17,7 @@ ArcticTrail.SPEC_PROBABILITY = 0;
 ArcticTrail.ENEMY_HUNTINGTOOLS_AVG = 5;
 ArcticTrail.ENEMY_GOLD_AVG = 50;
 ArcticTrail.INCREASE_IN_TEMP = 275/9900;
-//VARIABLE
+//variable
 ArcticTrail.TEMP_SLOWDOWN = 0;
 
 ArcticTrail.Game = {};
@@ -43,7 +43,7 @@ ArcticTrail.Game.init = function(){
     HuntingTools: 2,
     Temperature: -35,
     Year: 0,
-		WinterCoat: 0
+    WinterCoat: 0
   });
 
   //pass references
