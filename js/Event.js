@@ -85,7 +85,7 @@ ArcticTrail.Event.eventTypes = [
     notification: 'negative',
     stat: 'MuskOx',
     value: -1,
-    text: 'Your Musk Ox have been infected with worms. Worms thrive in warmer weather! Casualties: '
+    text: 'Your Musk Ox have been infected with worms. Worms thrive in warmer weather! Ox lost: '
   },
 	//9
   {
@@ -101,7 +101,7 @@ ArcticTrail.Event.eventTypes = [
     notification: 'negative',
     stat: 'MuskOx',
     value: -1,
-    text: 'Polar bear stole your musk ox for Food. Polar bears need 12325 calories a day. Casualties: '
+    text: 'Polar bear stole your musk ox for Food. Polar bears need 12325 calories a day. Ox lost: '
   },
 	//11
   {
@@ -129,7 +129,7 @@ ArcticTrail.Event.eventSpecTypes = [
     notification: 'negative',
     stat: 'MuskOx',
     value: -2,
-    text: 'You have reached Ayles Ice Shelf but it has cracked and broken off. This causes a decline a in arctic sea ice making it harder for wildlife and you to travel. Polar bears will be hungry...\nCasualties: '
+    text: 'You have reached Ayles Ice Shelf but it has cracked and broken off. This causes a decline in Arctic sea ice making it harder for wildlife and you to travel. Polar bears will be hungry...\nCasualties: '
 	},
 	//1
 	{
